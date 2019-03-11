@@ -1,0 +1,356 @@
+body
+{
+  background-color: #fdfefe;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  color: #545454;
+  width: 70%;
+  margin: auto;
+}
+
+.container
+{
+  border-bottom: 3px solid;
+  border-bottom-color: #545454;
+  padding-bottom: 5%;
+}
+
+/*header*/
+
+header
+{
+  background-color: #545454;
+  padding: 5px;
+}
+
+/*Navigation*/
+.navbar-brand
+{
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-right: 10%;
+}
+nav a
+{
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #a5a5a5;
+}
+
+nav a:hover, nav a:active
+{
+  color: #545454;
+  text-align: center;
+  background-color: #bababa;
+}
+
+/*fellowwanted*/
+#carouselExampleIndicators{
+  margin-bottom: 10px;
+}
+
+.pills{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+/* Blocmost */
+
+.blocmost
+{
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+}
+
+.blocmost img
+{
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  position: absolute;
+  z-index: 1;
+}
+.blocmost img:hover
+{
+  opacity: inherit;
+}
+.gandalf1:hover .rewardone
+{
+  opacity: 0;
+}
+
+.gandalf1:hover h2
+{
+  display: inline-block;
+  bottom: 30px;
+  margin: 4px;
+  padding: 1%;
+  position: absolute;
+  width: 100%;
+  text-decoration: none;
+  color: #fdfefe;
+  font-size: 1.0em;
+  font-weight: bold;
+  text-align: center;
+  z-index: 1;
+}
+.rewardone
+{
+  width: auto;
+  height: auto;
+  background: white;
+  background-color: rgba(255,255,255,0.8);
+  border-radius: 10px;
+  top: 0;
+  margin: 10px;
+  padding: 1%;
+  position: relative;
+  text-decoration: none;
+  z-index: 10;
+  color: #545454;
+  font-size: 2.0em;
+  font-weight: bold;
+  text-align: center;
+}
+.blocmost strong
+{
+  color: #FEB200;
+}
+.blocmost h2
+{
+  display: inline-block;
+  bottom: 5%;
+  margin: 4px;
+  padding: 1%;
+  position: absolute;
+  width: 100%;
+  text-decoration: none;
+  color: #fdfefe;
+  font-size: 2.0em;
+  font-weight: bold;
+  text-align: center;
+  z-index: 1;
+}
+.gandalf1
+{
+  position: relative;
+  padding: 1px;
+  width: 250px;
+  height: 250px;
+}
+.rewardone:hover
+{
+  display: none;
+}
+.reward1, .dead, .reward250{
+  margin: 2%;
+  text-align: justify;
+  width: 250px;
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .blocmost
+{
+  display: flex;
+  flex-direction: column;
+ }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .blocmost
+  {
+    display: flex;
+    flex-direction: column;
+   }
+  }
+
+
+/* Get my reward */
+
+#getmyreward
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.imgprofile
+{
+  border-radius: 10px;
+  margin: auto;
+}
+#getmyreward h2
+{
+  width: 100%;
+}
+#getmyreward p
+{
+  width: 100%;
+  height: auto;
+  margin-left: 5px;
+  margin-right: 20px;
+  text-align: justify;
+}
+.contact
+{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 30px;
+}
+.contact input
+{
+  width: 150px;
+  height: 50px;
+  color: #545454;
+  font-size: 1em;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #545454;
+  box-shadow: 3px 3px 3px black;
+}
+
+/*about the ring*/
+#aboutthering
+{
+  display: flex;
+  flex-direction: column;
+  border-bottom: 3px solid #545454;
+  padding-bottom: 50px;
+}
+.ring
+{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #d3d4d4;
+  border-radius: 10px;
+  margin: 0px;
+  padding: 0px;
+}
+.ring h3
+{
+  background: #d3d4d4;
+  color: #545454;
+  font-weight: bold;
+  font-size: 1.2em;
+  height: 35px;
+  top: 0px;
+  margin-top: 0px;
+  padding-left: 10px;
+  padding-top: 10px;
+  text-align: left;
+  border-radius: 10px 10px 0px 0px;
+}
+.ring h4
+{
+  margin-left: 20px;
+  color: #919191;
+}
+table
+{
+  border-collapse: collapse;
+  width: 90%;
+  margin:auto;
+  height: auto;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  margin-bottom: 10px;
+}
+tr td
+{
+  border: 2px solid #545454;
+  width: 45%;
+  height: 30px;
+}
+.feature
+{
+  background-color: #7d7d7d;
+  color: #d4d4d4;
+}
+.main, .power
+{
+  background-color: #d4d4d4;
+}
+#aboutthering
+{
+  display: flex;
+  flex-direction: column;
+}
+.whythering
+{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #d3d4d4;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 0px;
+}
+.whythering p
+{
+  display: flex;
+  margin-left: 10px;
+  text-align: left;
+  width: 80%;
+}
+.whythering img
+{
+  position: relative;
+  float: right;
+  margin: 20px;
+  width: 110px;
+  height: 110px;
+  border-radius: 60px;
+}
+.gollum
+{
+  display: flex;
+  justify-content: flex-start;
+}
+.ringawesome
+{
+  background: #d3d4d4;
+  color: #545454;
+  font-weight: bold;
+  font-size: 1.2em;
+  height: 35px;
+  top: 0px;
+  margin-top: 0px;
+  padding-left: 10px;
+  padding-top: 10px;
+  text-align: left;
+  border-radius: 10px 10px 0px 0px;
+}
+.whythering strong
+{
+  color: #d4d4d4;
+  font-weight: bold;
+}
+/*Footer*/
+
+footer
+{
+  display: flex;
+  justify-content: space-around;
+  background-color: #2a2a2a;
+  border: 1px solid #101010;
+  margin-top: 30px;
+  width: 100%;
+  height: 100px;
+}
+
+footer ul
+{
+  list-style: none;
+}
+a
+{
+  text-decoration: none;
+  color: #d3d4d4;
+  font-weight:normal;
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+}
+.footercontact .mentions .sociallinks
+{
+  color: #d3d4d4;
+  font-weight: bold;
+  font-size: 1em;
+}
